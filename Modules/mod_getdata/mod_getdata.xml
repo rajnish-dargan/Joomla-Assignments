@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<extension type = "module" version = "3.2.0" client = "site" method="upgrade">
+   <name>Get Data</name>
+   <author>Rajnish Dargan</author>
+   <version>1.0.0</version>
+   <description>selecting records from movie table</description>
+   <files>
+      <filename>mod_getdata.xml</filename>
+      <filename module = "mod_getdata">mod_getdata.php</filename>
+      <filename>index.html</filename>
+      <filename>helper.php</filename>
+      <filename>tmpl/default.php</filename>
+      <filename>tmpl/index.html</filename>
+   </files>
+	
+   <config>
+   </config>
+	
+</extension>
