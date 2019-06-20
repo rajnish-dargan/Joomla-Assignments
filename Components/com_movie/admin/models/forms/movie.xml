@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="mname"
+				type="text"
+				label="COM_MOVIE_MOVIE_MNAME_LABEL"
+				description="COM_MOVIE_MOVIE_MNAME_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+		<field
+				name="release_year"
+				type="text"
+				label="Release Year"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+		<field name="superhit" type="radio" label="Superhit" description="" class="">
+		<option value="yes">Yes</option><option value="no">No</option></field>
+
+		<field name="actor" type="radio" label="Lead Actor">
+		 <option value="leonardo dicaprio">leonardo dicaprio</option>
+		 <option value="Will Smith">Will Smith</option>
+		 <option value="Robert Downey, Jr.">Robert Downey, Jr.</option>
+		 <option value="Matthew McConaughey">Matthew McConaughey</option>
+		</field>
+	</fieldset>
+</form>
